@@ -1,6 +1,7 @@
 body {
   background-color: #141414;
   color: white;
+  font-family: sans-serif;
 }
 .rightPanel {
   width: 75%;
@@ -8,6 +9,26 @@ body {
   height: 100%;
   padding: 0;
 }
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.navbar a:hover {
+  color: #3498db;
+}
+
+.logo {
+  float: left;
+  line-height: 10px;
+}
+
+ul {
+  text-align: right;
+}
+
 .leftPanel {
   width: 25%;
   margin: 0;
@@ -20,6 +41,7 @@ body {
 }
 .navbar {
   background-color: #333;
+  text-decoration: none;
   color: white;
-  padding: 1px;
+  padding: 15px;
 }
