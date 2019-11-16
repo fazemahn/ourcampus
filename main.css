@@ -3,6 +3,7 @@ body {
   color: white;
   font-family: sans-serif;
 }
+
 .rightPanel {
   width: 75%;
   margin-left: 25%;
@@ -30,18 +31,20 @@ a:hover {
 }
 
 .leftPanel {
-  width: 25%;
-  margin: 0;
+  width: 23%;
+  margin: 15px;
   padding: 0;
   position: fixed;
   display: inline-block;
   height: 100%;
   overflow: auto;
   background-color: #101010;
+  font-size: 12px;
 }
+
 .navbar {
   background-color: #333;
   text-decoration: none;
   color: white;
-  padding: 15px;
+  padding: 20px;
 }
