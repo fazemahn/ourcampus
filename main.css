@@ -16,7 +16,7 @@ body {
   padding: 0 10px;
 }
 
-.navbar a:hover {
+a:hover {
   color: #3498db;
 }
 
@@ -25,7 +25,7 @@ body {
   line-height: 10px;
 }
 
-ul {
+.menu {
   text-align: right;
 }
 
