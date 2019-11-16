@@ -1,5 +1,5 @@
 body {
-  background-color: #001a66;
+  background-color: #141414;
   color: white;
 }
 .rightPanel {
@@ -7,7 +7,6 @@ body {
   margin-left: 25%;
   height: 100%;
   padding: 0;
-
 }
 .leftPanel {
   width: 25%;
@@ -17,10 +16,10 @@ body {
   display: inline-block;
   height: 100%;
   overflow: auto;
-  background-color: #e67300;
+  background-color: #101010;
 }
 .navbar {
-  background-color: black;
+  background-color: #333;
   color: white;
   padding: 1px;
 }
