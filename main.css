@@ -1,0 +1,26 @@
+body {
+  background-color: #001a66;
+  color: white;
+}
+.rightPanel {
+  width: 75%;
+  margin-left: 25%;
+  height: 100%;
+  padding: 0;
+
+}
+.leftPanel {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  overflow: auto;
+  background-color: #e67300;
+}
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 1px;
+}
