@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 $servername = "localhost";
 $username = "root";
-$password = "esam";
+$password = "gunDamw1ng";
 $dbname = "";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -22,7 +22,7 @@ if(isset($_POST['login'])) {
 	if (mysqli_num_rows($res) == 1) {
 			header("location: index.html");
 	exit();
-} 
+}
 else {
 	echo "Invalid Login Information. Please try again.";
 	exit();
@@ -42,14 +42,14 @@ else {
 
 	<form method ="POST" action="loginassignment.php">
 		<fieldset>
-		
-		<div class="maindiv"> 
-			<div class="main2"> 
-			
+
+		<div class="maindiv">
+			<div class="main2">
+
 			<span class="signup"><a href="signuptest.php"><strong>Sign Up</strong></a> </span>
 			<div class="login"> <strong>Log In</strong> </div> <br><br><br><br>
-			
-			<div class="loginform"> 
+
+			<div class="loginform">
 
 				<h4> Login Here</h4>
 				<label> Email </label><br>
@@ -59,9 +59,9 @@ else {
 				<input class ="input" name="password" type="Password" required /><br><br>
 
 				<div class="button" ><input name="login" class="submit" type="submit" value="Log In"></div>
-			
+
 			</div>
-			
+
 			</div>
 		</div>
 
@@ -70,4 +70,3 @@ else {
 
 </body>
 </html>
-
