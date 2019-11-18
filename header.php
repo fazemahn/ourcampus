@@ -10,13 +10,19 @@ session_start();
     <title></title>
   </head>
   <body>
-    <div class="navbar">
-      <h2 class="logo">OURCAMPUS</h2>
-        <ul class="menu">
-          <a href="#">HOME</a>
-          <a href="#">ABOUT</a>
-          <a href="#">CHATBOT</a>
-          <a href="#">OTHER</a>
-          <a href="#">LOGOUT</a>
+    <header>
+      <nav>
+        <h2>OURCAMPUS</h2>
+        <ul>
+          <li>
+            <form class="" action="includes/login.inc.php" method="post">
+              <input type="text" name="uname" placeholder="Username">
+              <input type="password" name="pass" placeholder="Password">
+              <input type="submit" name="login_submit" value="Login">
+            </form>
+          </li>
+          <li><a href="#">SIGN UP</a></li>
+          <li><a href="#">LOGOUT</a></li>
         </ul>
-    </div>
+     </nav>
+  </header>
