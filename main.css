@@ -61,3 +61,9 @@ nav a:hover {
 /*
 End of navigation bar
 */
+.preLogin{
+
+}
+.postLogin{
+  display: none;
+}
