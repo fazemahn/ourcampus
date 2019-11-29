@@ -21,7 +21,7 @@ session_start();
               <input type="submit" name="login_submit" value="Login">
             </form>
           </li>
-          <li><a href="#">SIGN UP</a></li>
+          <li><a href="includes/signup.inc.php">SIGN UP</a></li>
           <li><a href="#">LOGOUT</a></li>
         </ul>
      </nav>
