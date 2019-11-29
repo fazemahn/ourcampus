@@ -16,16 +16,10 @@ session_start();
         <ul>
           <?php
           if (!isset($_SESSION['userID'])){
-          echo '<li>
-            <form class="" action="includes/login.inc.php" method="post">
-              <input type="text" name="uname" placeholder="Username">
-              <input type="password" name="pass" placeholder="Password">
-              <input type="submit" name="login_submit" value="Login">
-            </form>
-          </li>';
-        }
+           require 'snippets/loginform.snip.php';
+          }
           ?>
-          <?php 
+          <?php
           if (isset($_SESSION['userID'])){
             echo '<li><a href="includes/logout.inc.php">LOGOUT</a></li>';
           }

@@ -4,6 +4,9 @@ body {
   color: white;
   font-family: sans-serif;
 }
+body h4, h2{
+  color: #3498db;
+}
 /* Main layout classes */
 .rightPanel {
   width: 75%;
@@ -21,7 +24,31 @@ body {
   height: 100%;
   overflow: auto;
   background-color: #101010;
-  font-size: 12px;
+
+}
+
+.leftPanel ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #555;
+}
+.leftPanel ul li a{
+  display: block;
+  color: #000;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+}
+.leftPanel ul li a:hover {
+  background-color: #333;
+  color: #3498db;
+}
+.leftPanel ul li a.active {
+  background-color: #101010;
+  color: #3498db;
 }
 header{
   margin:0;

@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <div class="leftPanel preLogin">
   <h4>Signup</h4>
   <form action="includes/signup.inc.php" method="post" name=signupSheet>
@@ -8,4 +6,3 @@
     <input type="submit" value="Sign Up">
   </form>
 </div>
-</html>
