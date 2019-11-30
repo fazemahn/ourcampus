@@ -10,21 +10,9 @@ if (mysqli_num_rows($result) > 0) {
       array_push($Courses,$row["mon"]);
     }
 } else {
-    echo "You have no courses today! You have too much free time...";
+    echo '<div class = "timeTable"><p>You have no courses today! You have too much free time...</p></div>';
 }
-$noCourses = count($Courses);
-//generate table
-for($x = 0; $x < $noCourses; $x++) {
-    $sql = "SELECT * FROM courses WHERE courses.id=$Courses[$x]";
-    $result = mysqli_query($conn, $sql);
-    if (mysqli_num_rows($result) > 0){
-      echo '<table class = "timeTable">';
-      echo '<tr> <th>Course Name</th> <th>Location</th> <th>Starts(hrs)</th> <th>Ends(hrs)</th></tr>';
-      while($row = mysqli_fetch_assoc($result)){
-        echo '<tr><td>'.$row["coursename"].'</td><td>'.$row["location"].'</td><td>'.$row["start"].'</td><td>'.$row["finish"].'</td></tr>';
-      }
-      echo '</table>';
-    }
-}
+require 'includes/tablegen.inc.php';
+require 'includes/modifylist.inc.php';
 mysqli_close($conn);
 ?>

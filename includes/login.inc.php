@@ -12,4 +12,5 @@ $_SESSION['Notes'] = $row['notes'];
 $_SESSION['selectItem'] = 1;
 header("Location: ../index.php?login=success");
 exit();
+mysqli_close($conn);
 ?>

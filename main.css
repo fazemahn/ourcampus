@@ -101,3 +101,11 @@ class table cards start
 /*
 class table cards ends
 */
+.leftSide{
+  display: inline-block;
+  float: left;
+}
+.rightSide{
+  display: inline-block;
+  float: right;
+}
