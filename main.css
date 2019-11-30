@@ -14,9 +14,6 @@ body h4, h2{
   height: 100%;
   padding: 0;
 }
-
-
-
 .leftPanel {
   width: 23%;
   margin: 15px;
@@ -26,9 +23,7 @@ body h4, h2{
   height: 100%;
   overflow: auto;
   background-color: #101010;
-
 }
-
 .leftPanel ul{
   list-style-type: none;
   margin: 0;
@@ -52,6 +47,7 @@ body h4, h2{
   background-color: #101010;
   color: #3498db;
 }
+
 header{
   margin:0;
   padding:0;
@@ -91,8 +87,17 @@ nav a:hover {
 End of navigation bar
 */
 .preLogin{
-
 }
 .postLogin{
   display: none;
 }
+/*
+class table cards start
+*/
+.timeTable{
+  border: 2px solid;
+  display: block;
+}
+/*
+class table cards ends
+*/
