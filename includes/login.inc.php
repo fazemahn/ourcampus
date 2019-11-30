@@ -9,6 +9,7 @@ session_start();
 $_SESSION['userID'] = $row['id'];
 $_SESSION['UserName'] = $row['userName'];
 $_SESSION['Notes'] = $row['notes'];
+$_SESSION['selectItem'] = 1;
 header("Location: ../index.php?login=success");
 exit();
 ?>
