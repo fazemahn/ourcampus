@@ -7,6 +7,11 @@ body {
 body h4, h2{
   color: #3498db;
 }
+
+body h2{
+  line-height: 30px;
+  padding-left: 5%;
+}
 /* Main layout classes */
 .rightPanel {
   width: 75%;
@@ -88,6 +93,110 @@ End of navigation bar
 */
 .preLogin{
 }
+
+/*
+sign up form preLogin
+*/
+.preLogin{
+}
+
+.preLogin input{
+
+display: block;
+margin: 20px auto;
+padding: 5px 10px;
+}
+
+.preLogin input[type="text"],.preLogin input[type="password"]{
+  border:0;
+  background: none;
+  border: 2px solid #3498db;
+  margin: 20px auto;
+  text-align: center;
+  color: white;
+  padding: 5px 10px;
+}
+
+.preLogin input[type="text"]:focus,.preLogin input[type="password"]:focus{
+width: 200px;
+border-color: #2ecc71;
+}
+
+.preLogin input[type="submit"]{
+  background: none;
+  color: white;
+  border: 1px solid lightblue;
+}
+
+.preLogin input[type="submit"]:hover{
+  background: #3498db;
+  cursor: pointer;
+
+}
+.preLogin h4  {
+  text-align: center;
+  font-weight: 500;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* login input preLogin
+*/
+
+.preLogin1 input[type="text"], input[type="password"]{
+  border:0;
+  background: black;
+  border: 2px solid #3498db;
+  text-align: center;
+  color: white;
+}
+
+.preLogin1 input[type="text"]:focus,input[type="password"]:focus{
+width: 200px;
+border-color: #2ecc71;
+}
+
+.preLogin1 input[type="submit"]{
+  background: black;
+  color: white;
+  border: 1px solid lightblue;
+
+}
+
+.preLogin1 {
+
+  padding-right: 30px;
+}
+
+.preLogin1 input[type="submit"]:hover{
+  background: #3498db;
+  cursor: pointer;
+}
+
+/* rightPanel
+*/
+
+#home_text {
+  padding-top: 30px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.rightPanel h2 {
+  text-align: center;
+}
+#size{
+  font-size: 50px;
+  color: lightblue;
+}
+ img {
+  opacity: 0.4;
+  filter: alpha(opacity=50);
+}
+
 .postLogin{
   display: none;
 }
@@ -95,9 +204,29 @@ End of navigation bar
 class table cards start
 */
 .timeTable{
-  border: 2px solid;
-  display: block;
+  margin: auto;
+  background-color: #101010;
 }
+
+.timeTable tr {
+  width: 80%;
+  margin: 10px auto;
+  font-family: sans-serif;
+  padding: 12px 0;
+  color: #d1d1e0;
+  font-size: 15px;
+}
+
+.timeTable th, tr {
+
+  width: 30%;
+  text-align: center;
+  padding-left: 4px 0;
+  border-right: 1px solid #d6d4d4;
+  vertical-align: middle;
+
+}
+
 /*
 class table cards ends
 */
