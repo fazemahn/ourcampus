@@ -9,12 +9,17 @@
 </div>
 
 <div class="rightPanel">
-		<table class = "timeTable">
-  		<h2> Features </h2>
-  		<tr>
-        <td><i id = "size" class="fas fa-sitemap"></i>Multiple Users</td>
-  			<td><i id = "size" class="far fa-calendar-check"></i>Daily Schedule</td>
-  			<td><i id = "size" class="fas fa-thumbtack"></i>Posting Notes</td>
-  		</tr>
+  <div class="top">
+    <h1>Simple scheduling.</h1>
+    <h1>Powerful planning.</h1>
+    <p> The simplest scheduler to help you get things done.</p>
+    <i id="Laptop" class="fas fa-laptop-code"></i>
+  </div>
+  <table class = "fTable">
+		<tr>
+      <td><i id = "size" class="fas fa-sitemap"></i>Multiple Users</td>
+			<td><i id = "size" class="far fa-calendar-check"></i>Daily Schedule</td>
+			<td><i id = "size" class="fas fa-thumbtack"></i>Posting Notes</td>
+		</tr>
   </table>
 </div>

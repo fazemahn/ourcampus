@@ -9,7 +9,7 @@ session_start();
 $_SESSION['userID'] = $row['id'];
 $_SESSION['UserName'] = $row['userName'];
 $_SESSION['Notes'] = $row['notes'];
-$_SESSION['selectItem'] = 1;
+$_SESSION['selectItem'] = 6;
 header("Location: ../index.php?login=success");
 exit();
 mysqli_close($conn);
