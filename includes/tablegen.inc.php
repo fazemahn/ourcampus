@@ -9,7 +9,7 @@ for($x = 0; $x < $noCourses; $x++) {
       while($row = mysqli_fetch_assoc($result)){
         echo '<tr><td>'.$row["coursename"].'</td><td>'.$row["location"].'</td><td>'.$row["start"].'</td><td>'.$row["finish"].'</td></tr>';
       }
-      echo '</table>';
+      echo '</table><br>';
     }
 }
 ?>

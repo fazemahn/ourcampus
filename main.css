@@ -204,41 +204,36 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
 class table cards start
 */
 .fTable{
-  width: 60%;
+  width: 90%;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 .fTable tr {
-  width: 100%;
-  margin: 10px auto;
+  width: 30%;
+  margin: auto;
   font-family: sans-serif;
-  padding: 12px 0;
   color: #d1d1e0;
   font-size: 15px;
+  text-align: center;
 }
 
 .timeTable{
+  width: 90%;
   margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 3px;
   background-color: #101010;
+
 }
 
-.timeTable tr {
-  width: 80%;
+.timeTable tr, th {
+  width: 30%;
   margin: auto;
   font-family: sans-serif;
-  padding: 12px 0;
   color: #d1d1e0;
   font-size: 15px;
-}
-
-.timeTable th, tr {
-
-  width: 30%;
   text-align: center;
-  padding-left: 4px 0;
-  border-right: 1px solid #d6d4d4;
-  vertical-align: middle;
-
 }
 
 /*
@@ -256,13 +251,10 @@ class table cards ends
 .foot{
   position: absolute;
   bottom: 1%;
+  left: 25%;
   right: 1%;
-  width: 70%;
 }
 
-.featuresTable {
-  padding-top: 250px;
-}
 #Laptop {
   font-size: 10em;
   width: 15%;
