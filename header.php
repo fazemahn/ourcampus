@@ -14,9 +14,7 @@ session_start();
       <nav>
         <h2>OURCAMPUS</h2>
         <ul>
-          <!--
           <li><a href="includes/setupmaster.inc.php">setup</a></li>
-          -->
           <?php
           if (!isset($_SESSION['userID'])){
            require 'snippets/loginform.snip.php';

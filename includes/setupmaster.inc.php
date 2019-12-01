@@ -8,9 +8,9 @@ passWord VARCHAR(30) NOT NULL,
 notes VARCHAR(250)
 )";
 if (mysqli_query($conn, $sql)) {
-    echo "Table MyGuests created successfully";
+    echo "Table testUsers created successfully";
 } else {
-    echo "Error creating table: " . mysqli_error($conn);
+    echo "<script>console.log('Debug Objects: " . mysqli_error($conn) . "' );</script>";
 }
 
 $sql = "CREATE TABLE courses (
@@ -21,10 +21,37 @@ start int,
 finish int
 )";
 if (mysqli_query($conn, $sql)) {
-    echo "Table MyGuests created successfully";
+    echo "Table courses created successfully";
 } else {
-    echo "Error creating table: " . mysqli_error($conn);
+    echo "<script>console.log('Debug Objects: " . mysqli_error($conn) . "' );</script>";
 }
-
+if (isset($_GET['cname'])){
+  $crsname = $_GET['cname'];
+  $crsloc = $_GET['cloc'];
+  $crsst = $_GET['cstart'];
+  $crsfin = $_GET['cend'];
+  echo "$crsname";
+  $sql = "INSERT INTO courses (coursename, location, start, finish) VALUES ('$crsname', '$crsloc', '$crsst', '$crsfin')";
+  if (mysqli_query($conn, $sql)) {
+      echo "Added successfully";
+  } else {
+      echo "Error: " . mysqli_error($conn);
+  }
+}
 mysqli_close($conn);
- ?>
+?>
+<!DOCTYPE html>
+<html>
+<body>
+  <form action = "setupmaster.inc.php" method = "get">
+    <fieldset>
+      <legend> set up courses </legend>
+      <input type = "text" name= "cname" required>
+      <input type = "text" name= "cloc" required>
+      <input type = "text" name= "cstart" required>
+      <input type = "text" name= "cend" required>
+      <input type = "submit" value = "Add">
+    </fieldset>
+  </form>
+</body>
+</html>

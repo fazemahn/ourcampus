@@ -14,7 +14,7 @@ if (mysqli_num_rows($result) > 0) {
     echo '<div class = "timeTable"><p>You have no courses today! You have too much free time...</p></div>';
 }
 require 'includes/tablegen.inc.php';
-require 'includes/modifylist.inc.php';
+require 'snippets/modifylist.snip.php';
 mysqli_close($conn);
 ?>
 <script>
