@@ -1,4 +1,5 @@
 <?php
+$targetDay = "chat";
 switch ($_SESSION['selectItem']) {
   case 1:
       $targetDay = "mon";
