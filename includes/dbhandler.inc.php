@@ -1,8 +1,11 @@
 <?php
 $servername = "localhost";
-$username_db = "root";
-$password_db = "gunDamw1ng";
-$dbname = "project1";
+//insert username
+$username_db = "";
+//insert password
+$password_db = "";
+//insert database name
+$dbname = "";
 
 $conn = mysqli_connect($servername, $username_db, $password_db, $dbname);
 if(!$conn) {
