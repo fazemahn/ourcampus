@@ -17,6 +17,7 @@ require 'includes/tablegen.inc.php';
 require 'snippets/modifylist.snip.php';
 mysqli_close($conn);
 ?>
+
 <script>
 document.getElementById("<?php echo "$targetDay" ?>").classList.add('active');
 </script>

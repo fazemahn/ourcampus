@@ -240,12 +240,10 @@ class table cards start
 class table cards ends
 */
 .leftSide{
-  display: inline-block;
-  float: left;
+  display: block;
 }
 .rightSide{
-  display: inline-block;
-  float: right;
+  display: block;
 }
 
 .foot{
@@ -270,4 +268,11 @@ class table cards ends
 .rightPanel h2, h1, p {
   text-align: center;
   font-family: sans-serif;
+}
+
+.center{
+  display: block;
+}
+fieldset{
+  border: 0px;
 }

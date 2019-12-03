@@ -5,7 +5,7 @@
   $p= $_POST['passwd'];
 
   $sql = "INSERT INTO testUsers (userName, passWord, notes)
-    VALUES ('$u', '$p', 'john@example.com')";
+    VALUES ('$u', '$p', '')";
   $sql1 = "CREATE TABLE $u (
   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   mon INT(6),
